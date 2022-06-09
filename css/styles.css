@@ -1,0 +1,22 @@
+@import "reset.css";
+@import url("main.css");
+
+
+.option {
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.out-btn {
+    width: 100px;
+    height: 40px;
+    position: sticky;
+    bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
