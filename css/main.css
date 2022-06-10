@@ -6,4 +6,31 @@
      align-items: center;
      flex-direction: column;
  }
- 
+ .content{
+     height: 45px;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     background-color:#f4f4f4f8;
+ }
+ .content label{
+     height: 100%;
+     display: flex;
+     align-items: center;
+     font-weight: 800;
+     font-size: 25px;
+     padding: 3px 10px;
+
+ }
+
+ .content_search {
+     height: 100%;
+     width: 100%;
+     font-size: 16px;
+     border: none;
+     background-color:#f4f4f4f8;
+          
+ }
+ ::placeholder{
+     color: white;
+ }
